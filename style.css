@@ -14,12 +14,14 @@ body{
     width: 90%;
     max-width: 470px;
     background-color: rgba(126, 224, 227, 0.324);
-    color: #000000;
+    color: #ffffff;
     margin: 200px auto 200px;
     border-radius: 20px;
     padding: 40px 40px;
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.69);  
+    text-shadow: 2px 2px 20px #000000
+
 
 }
 .search{
@@ -67,13 +69,15 @@ body{
 .weather h1{
     font-size: 80px;
     font-weight: 500;
-    text-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 4px 8px #000000
 
 }
 .weather h2{
     font-size: 45px;
     font-weight: 400;
     margin-top: -10px;
+    text-shadow: 0px 4px 8px #000000
+
 }
 .details{
     align-items: center;
@@ -82,7 +86,9 @@ body{
     padding: 20px 20px;
     margin-top: 50px;
     border-radius: 10%;
-    box-shadow: 0px 4px 20px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 4px 8px #000000
+
 
 
 }
